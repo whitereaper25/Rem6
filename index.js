@@ -61,9 +61,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n'//JANGAN DI GANTI ANJING
             + 'VERSION:3.0\n'//JANGAN DI GANTI ANJING,NTAR EROR
-            + 'FN:Mr.108P\n' // GANTI NAMA LU BODOH
+            + 'FN:NARUTO\n' // GANTI NAMA LU BODOH
             + 'ORG: REMBOT;\n'//GANTI NAMA BOT LUH BANGSAT
-            + 'TEL;type=CELL;type=VOICE;waid=6281534162316:+62 815-3416-2316\n' // GANTI NOMOR LU BEGONIAN
+            + 'TEL;type=CELL;type=VOICE;waid=919080896537:+91 9080896537\n' // GANTI NOMOR LU BEGONIAN
             + 'END:VCARD'
 // UDAH SEGITU KONTOLL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Rem.json'))
@@ -86,9 +86,9 @@ blocked = []
 limitawal = 1200
 memberlimit = 2
 fake = 'YDBOT-FIX-ANTIDELETE'
-ator = 'SUBSCRIBE'
-namo = 'MrG{108P}*'
-cr = "~*SUBSCRIBE:MrG{108P}🍁~OWNER:Arnando🍁*"
+ator = 'WELL...'
+namo = 'NARUTO*'
+cr = "~*CUTE REM🍁~OWNER:NARUT0🍁*"
 // LOAD JSON
 const setiker = JSON.parse(fs.readFileSync('./strg/stik.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -1119,16 +1119,10 @@ shiz = `┏━━━━《 *${botName}*  シ︎ 》━━━━
 ┣ ❏ *${prefix}terpesona*
 ┣ ◪ *Thanks To*
 ┃
-┣ ❏ *Mr.108P*
-┣ ❏ *SofyanAmv*
-┣ ❏ *Ivan_maulana*
-┣ ❏ *Arashi~*
-┣ ❏ *Mr.A43G*
-┣ ❏ *ItsmeikyXSec404*
-┣ ❏ *Fadhill*
-┣ ❏ *Ramlan*
+┣ ❏ *NARUTO*
+┣MADE WITH LOVE FOR CUTE LITTLE REM
 ┃
-┗━━━━《 Rem Bot -X シ︎ 》━━━━`
+┗━━━━《 Rem Bot シ︎ 》━━━━`
 MrG.sendMessage(from, buffer, image, { quoted: mek, caption: shiz })
 const menu2 = fs.readFileSync('./assest/menu2.mp3');
 MrG.sendMessage(from, menu2, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
